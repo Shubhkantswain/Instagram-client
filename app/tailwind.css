@@ -10,3 +10,13 @@ body {
     color-scheme: dark;
   }
 }
+
+/* styles.css or global.css */
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
